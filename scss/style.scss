@@ -1,0 +1,45 @@
+@import "/scss/base/header";
+@import "/scss/base/footer";
+@import "/scss/base/nav";
+@import "/scss/base/mixins";
+@import "/scss/base/maps";
+
+*{
+    @include mpb
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.margentotal{
+    @include espacio (1 50px)
+}
+@media all and (max-width: 800px){
+    .section{
+        @include fcolumn;
+    }
+    .menu{
+        @include fcolumn;
+        height: auto;
+    }
+    .textoprincipal{
+        @include fcolumn;
+        height: auto;
+    }
+    .aside{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media all and (max-width: 600px){
+    .articulos{
+        flex-direction: column;
+    }
+}
+@media all and (max-width: 400px){
+    .aside{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,25 @@
+.nav{
+    /*configuracion de la seccion de navegacion*/
+    flex: 5 1 auto;
+    font-weight: bold;
+    -webkit-text-stroke: 0.3px rgb(75, 34, 34);
+}
+    .nav a{
+        color: rgb(251, 251, 112);
+        font-size: 17px;
+        text-transform: uppercase;
+        padding: 0 10px;
+        letter-spacing: 2px;
+        text-align: center;
+    .nav a:hover{
+        color: yellow;
+    }
+}
+.social{
+    flex: 1 1 auto;
+    .logolt{
+        width:85px;
+        height:85px;
+        box-shadow: 2px 2px 5px #999;
+    }
+}

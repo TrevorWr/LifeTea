@@ -1,0 +1,11 @@
+@mixin espacio ($padding){
+    padding: $padding;
+}
+@mixin mpb{
+    margin:0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+@mixin fcolumn{
+    flex-direction: column;
+}
